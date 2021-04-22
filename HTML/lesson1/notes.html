@@ -1,0 +1,123 @@
+<p>My HTML Notes </p>
+
+<p>By the way, you'll be doing this a lot—saving your code and refreshing the web browser to see the change. So you may want to use the hotkeys for these actions. Pressing Ctrl + S (on Windows) or ⌘S (on Mac) will save your file in most editors. And pressing Ctrl + R (Windows) or ⌘R (Mac) will refresh the browser.</p>
+
+<p> What is markup? Use the em element to italicize something. <em>Markup</em> language is the ability to change the appearance of text in a web browser. Markup tells a browser what to do. It is text that has a special meaning.</p> 
+
+<p>Whitespace includes spaces, tabs, and line breaks. When the browser displays an HTML file, it treats a run of whitespace as a single space character. In order to create a line break that will show up in the browser, use the "<br>" tag.
+</p>
+
+<p>To make a paragraph use the "<p></p>" element. </p>
+
+<p>
+    Syntax: The grammar rules of a language. <br>
+    Nesting: The idea that some bits of code can go inside other bits of code. <br>
+    Markup: Code that tells the browser what the text on a web page should look like. <br>
+    Hypertext: Text that can have links or references. <br>
+    Whitespace: A general term for spaces, tabs, and line breaks. <br>
+</p>
+
+<p>
+    When programmers say "computers are stupid," what do they really mean? <br>
+    Computers take code completely literally; if you make a typo, the computer will not guess at what you really meant.
+</p>
+
+<p>
+    What do the sub and sup elements do? <br>
+    They move the text vertically, as subscript or superscript. Originally, HTML started out as a tool for scientific and academic work; and these are really useful for science and math, like writing x2+3x+4 = 1 or chemical formulas like H2O. <br>
+</p>
+
+<p>
+HTML Elements Review 1
+<em> and <strong> — Emphasis.
+    By default, text inside <em> is displayed as italic, and text in <strong> is displayed as boldface. <br>
+
+ <p> — Paragraph.
+    Text in a paragraph is separated visually from other paragraphs by a small margin. <br>
+    
+<br> — Line break. (empty)
+    A line break does not create a new paragraph; it only marks the end of a line. <br>
+    
+<sub> and <sup> — Subscript and superscript.
+    Useful for math and chemistry: I have x3+2x2 molecules of H2O. <br>
+
+<mark> — Highlighting.
+    Not very often used, but it's kind of cool. <br>
+
+Of these elements, the br element is the only one that is an empty (or void) element. <br>
+
+HTML has several elements for headlines or section headings, starting with <h1> for the largest headlines and going down to <h6> for the smallest.
+h1 is used for the main heading on a page, while the rest are used for sub-headings.
+
+</p>
+
+<p>
+    block elements: browser creates an invisible block around the text. It also generates a margin around this box, to visually separate the paragraph from surrounding elements. <br>
+    inline elements: browser does not create an invisible block around the text. It doesn't have a box around it and doesn't create any margin.
+</p>
+
+<p>
+    <strong>The div element</strong>
+    The div is short for division, because that's what this element is for—you can use it to divide up the page into different sections. The div element is a generic container for whatever other elements you might want to put inside. You can use the div element to organize the content and divide the page into sections. The div element is a super important one, and it's used a lot in HTML to help lay out and organize pages. 
+</p>
+
+<div>
+    <p>
+        Update your notes.html file to try out lists—and to explain some of the concepts you just learned.
+    </p>
+    <p>
+       Task 1: add an ordered list <br>
+       <ol>
+        <li>Learn HTML.</li>
+        <li>Learn CSS.</li>
+        <li>Learn Python.</li>
+        <li>Save the world.</li>
+       </ol> 
+    </p>
+    <p>
+        Task 2: add an unordered list <br>
+        <ul>
+            <li>Make dinner</li>
+            <li>Study for math class</li>
+            <li>Practice coding on udacity</li>
+            <li>Workout</li>
+        </ul>
+    </p>
+    <p>
+        Task 3: Questions <br>
+        1. Which two elements (that you have learned about so far) have optional closing tags? 
+        <ul>
+            <li>li</li>
+            <li>p</li>
+        </ul>
+        2. When you leave off a closing tag, how does the browser know when to close that element? <br>
+        When you leave off an <mark>optional closing tag</mark>, it is still implied—that is, the browser will figure out where the element should be closed, even though you didn't explicitly tell it. The browser knows there has to be a closing tag when it gets to the start tag of a new element that can't be inside of the last one. For example, when it gets to the start of a new p element, it knows the previous p element must be closed.
+    </p>
+    <p>
+        Task 4: add a nested list to your notes <br>
+        <ul>
+            <li>Groceries Needed:</li>
+                <ol>
+                    <li>Almond Milk</li>
+                    <li>Butter</li>
+                    <li>Eggs</li>
+                </ol>
+            <li>Vacation To Do:</li>
+                <ol>
+                    <li>Book Flight</li>
+                    <li>Book Room</li>
+                    <li>Pack Luggage</li>
+                </ol>
+            <li>Chores To Do:</li>
+                <ol>
+                    <li>Run Vaccum</li>
+                    <li>Clean Kitchen</li>
+                    <li>Laundry</li>
+                </ol>
+        </ul>
+    </p>
+    <p>
+        Task 5: add a link to your favorite website <br>
+        <a href="https://youtube.com">YouTube</a>
+    </p>
+</div>
